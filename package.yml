@@ -1,0 +1,47 @@
+package: newssync
+version: '1.0.10'
+author: © Falko Müller
+supportpage: https://github.com/iceman-fx/newssync
+load: late
+
+page:
+    title: 'News Sync'
+    perm: newssync[]
+    icon: rex-icon fa-bullhorn
+    prio: 200
+    block: system
+    subPath: pages/index.php
+
+    subpages:
+        host:
+            title: 'News verwalten'
+            icon: rex-icon fa-pen-to-square
+            subPath: pages/host.php
+        client:
+            title: 'News anzeigen'
+            icon: rex-icon fa-bullhorn
+            subPath: pages/client.php
+
+        api_keys:
+            title: 'API-Keys (Clients)'
+            icon: rex-icon fa-key
+            perm: admin[]
+            subPath: pages/api_keys.php
+        api_logs:
+            title: 'API-Logs'
+            icon: rex-icon fa-chart-line
+            perm: admin[]
+            subPath: pages/api_logs.php
+
+        settings:
+            title: 'Einstellungen'
+            icon: rex-icon fa-wrench
+            perm: admin[]
+            subPath: pages/settings.php
+            itemclass: pull-right
+
+requires:
+    redaxo: '^5.12'
+    php:
+        version: '>=8.0'
+        extensions: [curl, json]

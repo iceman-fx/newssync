@@ -1,0 +1,131 @@
+# addon: newssync de_de
+
+a1940_defaultTitle = News-Sync
+a1940_defaultTitle_ishost = (Host)
+
+a1940_host = News verwalten
+a1940_apikeys = API-Keys (Clients)
+a1940_apilogs = API-Logs
+a1940_client = 
+a1940_config = Einstellungen
+a1940_help = Hilfe
+
+a1940_head_basics = 
+a1940_head_cat = 
+a1940_head_config = Einstellungen
+a1940_head_help = Onlinehilfe
+
+a1940_subheader_bas1 = Allgemein
+a1940_subheader_bas2 = Definition Formular
+a1940_subheader_bas3 = Anzeige-Einstellungen
+
+a1940_subheader_tab1 = Formulareditor
+a1940_subheader_tab2 = E-Mail Versand
+a1940_subheader_tab3 = Sonstiges
+
+a1940_subheader_config1 = 
+a1940_subheader_config2 = Personalisierung
+
+a1940_text1 = 
+a1940_text2 = 
+a1940_text3 = 
+
+
+# Globale Felder
+a1940_std_status = Sichtbar / Aktiv
+a1940_std_title = Titel / Bezeichnung
+a1940_std_description = Beschreibung
+a1940_std_left = Links
+a1940_std_top = Oben
+a1940_std_right = Rechts
+a1940_std_bottom = Unten
+a1940_std_center = Mitte
+a1940_std_align_center = Mittig
+a1940_std_align_lefttop = Links oben
+a1940_std_align_righttop = Rechts oben
+a1940_std_align_rightbottom = Rechts unten
+a1940_std_align_leftbottom = Links unten
+a1940_std_align_centertop = Mitte oben
+a1940_std_align_centerright = Mitte rechts
+a1940_std_align_centerbottom = Mitte unten
+a1940_std_align_centerleft = Mitte links
+a1940_std_notspecified_short = k.A.
+
+
+# Seite: Default
+
+
+# Seite: Einstellungen
+a1940_config_editor = Einbindung WYSIWYG-Editor
+a1940_config_editor_class = CSS-Klasse
+a1940_config_editor_class_example = Bsp: ckeditor
+a1940_config_editor_data = DATA-Attribut
+a1940_config_editor_data_example = Bsp: data-ckeditor-profile="full"
+
+a1940_config_mode = Modus-Konfiguration
+a1940_config_custom_title = Individueller Addon-Titel
+a1940_config_custom_title_default = Standard-Titel: 
+
+
+# Sonstige Vorgaben
+a1940_example = Beispiel
+a1940_examples = Beispiele...
+a1940_days = Tage
+a1940_clock = Uhr
+a1940_overview = Übersicht:
+a1940_calendar = Kalender öffnen
+a1940_calendar_reset = Kalenderauswahl zurücksetzen
+
+a1940_search_all = alle
+a1940_search_noselection = - keine Auswahl -
+a1940_search_sort = Ansicht
+a1940_search_sort_onlyactive = nur aktive Einträge (online)
+a1940_search_sort_onlyinactive = nur deaktivierte Einträge (offline)
+a1940_search_keyword = Suchbegriff
+a1940_search_submit = suchen
+a1940_search_reset = Suche zurücksetzen
+a1940_search_notfound = Es wurden keine Einträge gefunden.
+a1940_search_more = mehr Optionen
+a1940_search_cat = Kategorie
+a1940_search_archive = Nur Archiveinträge anzeigen
+
+a1940_edit = ändern
+a1940_duplicate = duplizieren
+a1940_delete = löschen
+a1940_online = online
+a1940_offline = offline
+a1940_new = hinzufügen
+a1940_create = erstellen
+a1940_save = Speichern
+a1940_apply = Übernehmen
+a1940_abort = Abbrechen
+a1940_close = Schließen
+a1940_accept = übernehmen
+a1940_open= öffnen
+a1940_remove = entfernen
+a1940_copiedname = _Kopie
+a1940_yes = ja
+a1940_no = nein
+a1940_all = alle
+a1940_details = Details
+a1940_statusfunc = Funktionen
+a1940_setstatus = Status ändern
+a1940_showhide = anzeigen/ausblenden
+a1940_showbox = anzeigen/ausblenden
+
+a1940_notice = Hinweis
+a1940_error = Es ist ein Fehler aufgetreten!
+a1940_settings_saved = Die Einstellungen wurden gespeichert
+a1940_entry_saved = Eintrag gespeichert
+a1940_entry_deleted = Eintrag gelöscht
+a1940_entry_used = Eintrag ist einem anderen Datensatz zugeordnet.
+a1940_entry_exists = Ein Eintrag mit dieser Bezeichnung/Kennung existiert bereits.
+a1940_entry_emptyfields = Es wurden nicht alle Pflichtfelder ausgefüllt.
+a1940_entry_emptyfield = Ein zusätzlich benötigtes Feld wurde nicht ausgefüllt
+a1940_entry_badchars = Es wurden unzulässige Zeichen eingegeben
+a1940_error_saved = Fehler beim Speichern
+a1940_error_deleted = Fehler beim Löschen
+a1940_error_setstatus = Fehler beim Statusändern
+a1940_error_setstatus_info = Hinweis: Status wegen bestehender Zuweisung nicht geändert!
+
+a1940_logscleared = Alle vorhandenen Logs wurden gelöscht.
